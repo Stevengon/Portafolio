@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Presentación - Steven González
+  </title>
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="Css/Style.css">
+  <!-- Icono -->
+  <link rel="short icon"
+    href="https://images.vexels.com/media/users/3/229701/isolated/lists/8f4eda2d2252d865b286582c9a5cbf7b-logotipo-de-cabeza-de-elefante.png">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/320328bf9f.js" crossorigin="anonymous"></script>
+  <!-- Fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-inverse fixed-top " id="menu">
+
+      <ul class="mx-auto ml-auto">
+        <li><a class="nav-item nav-link text-white" href="#"><i class="fas fa-home"></i> Inicio</a></li>
+        <li> <a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-user"></i> Acerca de mi</a></li>
+        <li><a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-rocket"></i> Habilidades</a></li>
+        <li><a class="nav-item nav-link text-white" href="#hobbies"><i class="fas fa-puzzle-piece"></i> Hobbies</a></li>
+        <li> <a class="nav-item nav-link text-white" href="#experiencia"><i class="fas fa-briefcase"></i>
+            Experiencia</a></li>
+        <li><a class="nav-item nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contáctame</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Jquery Navbar -->
+  <script>
+    $(window).scroll(function () {
+      if ($("#menu").offset().top > 10) {
+        $("#menu").addClass("dark");
+      } else {
+        $("#menu").removeClass("dark");
+      }
+    });
+
+  </script>
+  <section>
+    <!-- PORTADA -->
+    <div class="fondo" id="fondo">
+      <div class="row">
+        <div class="col-6">
+          <img src="Images/Avatar1.png" class="avatar">
+        </div>
+        <div class="col-6">
+          <h4>Hola, soy</h4>
+          <h1>Steven González</h1>
+          <h3 class="text-center">Desarrollador Frontend</h3>
+          <a href="Pdf/Hoja de vida STEVEN.pdf" target="_blank" type="button" class="btn-primary btn">
+            <h5><i class="fas fa-file-download"></i> Descargar CV</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+
+    <div id="fondo-info">
+      <div class="container" id="info">
+        <div class="row">
+          <div class="col-6">
+            <!-- ABOUT ME -->
+            <h2 class="pt-4"><i class="fas fa-user"></i> ACERCA DE MI</h2>
+            <div class="card bg-dark ">
+
+              <div class="card-body" id="desc">
+                <p>Soy un joven estudiante de Ingenieria en Telemática, comprometido con mis objetivos y
+                  responsabilidades, dispuesto para aprender y adquirir nuevos conocimientos que me permitan contribuir
+                  a
+                  mi desarrollo personal, social y perfil profesional.</p>
+                <p>
+                  Soy una persona multifacética que actualmente busca encajar y adaptarse al ámbito laboral a partir del
+                  esfuerzo y la dedicación en pro de aportar a las necesidades de la empresa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="Images/Avatar2.png" class="avatar2 pt-5">
+          </div>
+        </div>
+      </div>
+      <div class="fondo-hobbies">
+        <div class="container" id="info">
+          <div class="pt-5" id="hobbies"></div>
+
+          <div class="row">
+            <h2 class="text-white"><i class="fas fa-puzzle-piece"></i> HOBBIES</h2>
+
+            <div class="col-4 cards text-center">
+              <div class="card-side front">
+                <div> <i class="fas fa-laptop-code text-dark icono"></i></div>
+              </div>
+              <div class="card-side back bg-dark">
+                <h3>Computación e informática </h3>
+                <p>Actualmente soy estudiante de ingenieria en Telemática, me gusta el desarrollo web y el entorno de
+                  redes
+                  de información.</p>
+              </div>
+            </div>
+            <div class="col-4 cards">
+              <div class="card-side front">
+                <div> <i class="fas fa-music text-dark icono"></i></i></div>
+              </div>
+              <div class="card-side back bg-dark">
+                <h3>Música</h3>
+                <p>Desde muy joven adquirí gusto por la música, actualmente se tocar la guitarra, el piano y el ukelele
+                  y
+                  tengo la intención de realizar covers. Aquí puedes ver mi cover mas reciente <a
+                    href="https://www.youtube.com/watch?v=moQ5t7Du9YQ" class="badge badge-danger" target="_blank"><i
+                      class="fas fa-play"></i></a></p>
+              </div>
+            </div>
+            <div class="col-4 cards">
+              <div class="card-side front">
+                <div> <i class="fas fa-dumbbell text-dark icono" id="experiencia"></i></div>
+              </div>
+              <div class="card-side back bg-dark">
+                <h3>Deportes y actividad Física</h3>
+                <p>Me gusta el futbol, el beisbol y los deportes en general, también soy entuciasta de hacer ejercicio
+                  en
+                  casa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- HABILIDADES -->
+  <section>
+    <h2 id="aboutme"><i class="fas fa-rocket mt-5 mb-5"></i> HABILIDADES</h2>
+    <div class="container">
+      <div class="row habilidades">
+        <div class="col-3">
+          <img src="Images/html logo.png">
+          <h3 class="text-center mt-3">HTML</h3>
+        </div>
+        <div class="col-3">
+          <img src="Images/css logo.png">
+          <h3 class="text-center mt-3">CSS</h3>
+        </div>
+        <div class="col-3 ">
+          <img src="Images/js logo.png">
+          <h3 class="text-center mt-3">JAVASCRYPT</h3>
+        </div>
+        <div class="col-3 ">
+          <img src="Images/bootstrapLogo.png" class="bootstrap">
+          <h3 class="text-center mt-3">BOOTSTRAP 4</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="text-center pt-5 exp"><i class="fas fa-briefcase"></i> EXPERIENCIA</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 proyectos pt-5">
+          <div class="card mx-auto proyecto" style="width: 25rem;">
+            <img src="Images/oasis.jpg">
+            <section class="proyectos-info">
+              <h2>OASIS</h2>
+              <P>OASIS es un Sistema de información web desarrollado en lenguaje PHP y motor de bases de datos MYSQL
+                con servicios E-commerce para la administración y control de servicios que ofrece una empresa
+                proveedora de pulpas y hortalizas.</P><br>
+              <div class="center">
+                <a href="https://drive.google.com/file/d/103KFkvq8_loOf52XTDJe7XrpHmZR3QXV/view?usp=sharing"
+                  type="button" class="btn btn-primary" target="_blank"><i class="fas fa-play-circle"></i></a>
+                <a href="Pdf/OASIS.pdf" target="_blank" type="button" class="btn btn-primary"><i
+                    class="fas fa-scroll"></i></a>
+              </div>
+            </section>
+
+          </div>
+        </div>
+        <div class="col-6 proyectos pt-5">
+          <div class="card mx-auto proyecto" style="width: 25rem;">
+            <img src="Images/focus.jpg">
+            <section class="proyectos-info">
+              <H2>FOCUS</H2>
+              <p>Focus es un Sistema de información web desarrollado en PHP con bases de datos MYSQL que tiene como
+                objetivo dar seguimiento y documentar actividades de un proceso de registro de obras por parte de un
+                artista.</p><br>
+              <div class="center">
+                <a href="https://drive.google.com/file/d/1bi2k9hKdUfKsz0QNFm_BlXeEe2gN9ijj/view?usp=sharing"
+                  type="button" class="btn btn-primary" target="_blank"><i class="fas fa-play-circle"></i></a>
+                <a href="Pdf/Focus.pdf" target="_blank" type="button" class="btn btn-primary"><i
+                    class="fas fa-scroll"></i></a>
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- CONTACT ME -->
+    <div class="contact-section contacto ">
+      <div class="contact-form">
+        <h2 class="" id="contact"><i class="fas fa-envelope"></i> CONTÁCTAME</h2>
+        <form class="contact" action="" id="form">
+          <input type="text" name="name" class="text-box" placeholder="Nombre y apellido" required>
+          <input type="email" name="email" class="text-box" placeholder="Correo" required>
+          <textarea name="message" id="mensaje" placeholder="Escribe tu mensaje..." required rows="3"></textarea>
+          <button type="submit" class="btn send-btn"><i class="fas fa-paper-plane"></i> Enviar</button>
+        </form>
+        <a href="mailto:segundo_plato@hotmail.es" id="envio">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#envio')
+    $form.addEventListener('submit', handleSubmit)
+    function handleSubmit(event) {
+      event.preventDefault()
+      const form = new FormData(this)
+      $buttonMailto.setAttribute('href', `mailto:stevengon974@gmail.com?subject= CONTACTO: ${form.get('name')} - ${form.get('email')} &body=${form.get('message')}`)
+      $buttonMailto.click()
+    }
+  </script>
+
+</body>
+<!-- FOOTER -->
+<footer class="text-center text-white footer">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0 ">
+    <!-- Section: Social media -->
+    <section class="mb-4 footer">
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Derechos reservados <br>
+    <a class="text-white" href="https://mdbootstrap.com/">Stevengon974@gmail.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</html>
+<!-- ANIMACIONES
+
+---Revisar animacion de:
+---PORTADA
+---INFO
+---HOBBIES
+---EXP
+-->
