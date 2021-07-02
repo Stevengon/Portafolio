@@ -33,6 +33,16 @@ body{
     margin: 0 20px;
     position: relative
 }
+.navbar-brand{
+    display: block;
+    
+    text-decoration: none;
+}
+
+.navbar button{
+    color: white;
+    background: white ;
+}
 
 
 .navbar ul li a{

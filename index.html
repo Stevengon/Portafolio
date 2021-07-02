@@ -45,17 +45,29 @@
 <body>
   <header>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-inverse fixed-top " id="menu">
+    <nav class="navbar navbar-expand-lg navbar-expand-xl navbar-expand-md navbar-light fixed-top" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <ul class="mx-auto ml-auto">
-        <li><a class="nav-item nav-link text-white" href="#"><i class="fas fa-home"></i> Inicio</a></li>
-        <li> <a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-user"></i> Acerca de mi</a></li>
-        <li><a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-rocket"></i> Habilidades</a></li>
-        <li><a class="nav-item nav-link text-white" href="#hobbies"><i class="fas fa-puzzle-piece"></i> Hobbies</a></li>
-        <li> <a class="nav-item nav-link text-white" href="#experiencia"><i class="fas fa-briefcase"></i>
-            Experiencia</a></li>
-        <li><a class="nav-item nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contáctame</a></li>
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto ml-auto">
+            <li> <a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-user"></i> Acerca de mi</a>
+            </li>
+            <li><a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-rocket"></i> Habilidades</a>
+            </li>
+            <li><a class="nav-item nav-link text-white" href="#hobbies"><i class="fas fa-puzzle-piece"></i> Hobbies</a>
+            </li>
+            <li> <a class="nav-item nav-link text-white" href="#experiencia"><i class="fas fa-briefcase"></i>
+                Experiencia</a></li>
+            <li><a class="nav-item nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <!-- Jquery Navbar -->
@@ -229,7 +241,7 @@
       </div>
     </div>
 
-<!-- CONTACT ME -->
+    <!-- CONTACT ME -->
     <div class="contact-section contacto ">
       <div class="contact-form">
         <h2 class="" id="contact"><i class="fas fa-envelope"></i> CONTÁCTAME</h2>
