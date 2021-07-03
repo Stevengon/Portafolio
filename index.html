@@ -31,8 +31,7 @@
   <!-- Css -->
   <link rel="stylesheet" href="Css/Style.css">
   <!-- Icono -->
-  <link rel="short icon"
-    href="Images/logo.png">
+  <link rel="short icon" href="Images/logo.png">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/320328bf9f.js" crossorigin="anonymous"></script>
   <!-- Fonts  -->
@@ -43,12 +42,12 @@
 </head>
 
 <body>
-  <header>
+  <header id="home">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg  navbar-light fixed-top" id="menu">
       <div class="container-fluid">
         <a href="index.html"><img src="Images/logo.png" class="img-fluid logo"> </a>
-        
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -56,15 +55,15 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto ml-auto">
-            <li><a class="nav-item nav-link text-white inicio" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+            <li><a class="nav-item nav-link text-white inicio" href="#home"><i class="fas fa-home"></i> Inicio</a>
             </li>
             <li> <a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-user"></i> Acerca de mi</a>
-            </li>
-            <li><a class="nav-item nav-link text-white" href="#aboutme"><i class="fas fa-rocket"></i> Habilidades</a>
-            </li>
             <li><a class="nav-item nav-link text-white" href="#hobbies"><i class="fas fa-puzzle-piece"></i> Hobbies</a>
             </li>
-            <li> <a class="nav-item nav-link text-white" href="#experiencia"><i class="fas fa-briefcase"></i>
+            </li>
+            <li><a class="nav-item nav-link text-white" href="#habilities"><i class="fas fa-rocket"></i> Habilidades</a>
+            </li>
+            <li> <a class="nav-item nav-link text-white" href="#experience"><i class="fas fa-briefcase"></i>
                 Experiencia</a></li>
             <li><a class="nav-item nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contáctame</a>
             </li>
@@ -105,9 +104,11 @@
   <section>
 
     <div id="fondo-info">
+      <p id="aboutme"></p><br><br><br>
+
       <div class="container" id="info">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6 mb-5">
             <!-- ABOUT ME -->
             <h2 class="pt-4"><i class="fas fa-user"></i> ACERCA DE MI</h2>
             <div class="card bg-dark ">
@@ -129,10 +130,9 @@
           </div>
         </div>
       </div>
+      <p id="hobbies"></p><br>
       <div class="fondo-hobbies">
         <div class="container" id="info">
-          <div class="pt-5" id="hobbies"></div>
-
           <div class="row">
             <h2 class="text-white"><i class="fas fa-puzzle-piece"></i> HOBBIES</h2>
 
@@ -162,7 +162,7 @@
             </div>
             <div class="col-4 cards">
               <div class="card-side front">
-                <div> <i class="fas fa-dumbbell text-dark icono" id="experiencia"></i></div>
+                <div> <i class="fas fa-dumbbell text-dark icono"></i></div>
               </div>
               <div class="card-side back bg-dark">
                 <h3>Deportes y actividad Física</h3>
@@ -178,7 +178,8 @@
   </section>
   <!-- HABILIDADES -->
   <section>
-    <h2 id="aboutme"><i class="fas fa-rocket mt-5 mb-5"></i> HABILIDADES</h2>
+    <p id="habilities"></p><br><br><br>
+    <h2><i class="fas fa-rocket mt-5 mb-5"></i> HABILIDADES</h2>
     <div class="container">
       <div class="row habilidades">
         <div class="col-3">
@@ -201,6 +202,7 @@
     </div>
   </section>
   <section>
+    <p id="experience" class="mb-5"></p><br><br>
     <h2 class="text-center pt-5 exp"><i class="fas fa-briefcase"></i> EXPERIENCIA</h2>
 
     <div class="container">
