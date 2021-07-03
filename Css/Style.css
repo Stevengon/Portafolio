@@ -19,9 +19,10 @@ body{
     background:black;
 }
 .logo{
-    width: 100px;
-    margin-left: 50px;
+    height: 100px;
+    margin-left: 40px;
     transition: 0.2s ease-out;
+    
 }
 .logo:hover{
     transform:scale(1.1) ;
