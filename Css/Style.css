@@ -18,6 +18,14 @@ body{
 .dark{
     background:black;
 }
+.logo{
+    width: 100px;
+    margin-left: 50px;
+    transition: 0.2s ease-out;
+}
+.logo:hover{
+    transform:scale(1.1) ;
+}
 #menu{
     padding: 20px;
     font-family: 'Oswald', sans-serif;
@@ -31,7 +39,12 @@ body{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    position: relative
+    position: relative;
+    
+}
+.navbar li:hover{
+    transition: 0.3s ease-out;
+    transform:scale(1.1) ;
 }
 .navbar ul li::before{
     content: "";
@@ -45,6 +58,7 @@ body{
 }  
 .navbar ul li:hover::before {
     width: 100%;
+    transition: all 0.2s;
 }
 .navbar button{
     color: white;
