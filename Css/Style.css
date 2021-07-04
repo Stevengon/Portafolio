@@ -198,8 +198,10 @@ body{
       -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
 .avatar2{
-    width: 400px;
+    width: 300px;
     transition: 0.4s;
+    margin-left: 20%;
+    margin-top: 10%;
 }
 .avatar2:hover{
     
