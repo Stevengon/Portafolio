@@ -80,10 +80,12 @@ body{
     padding: 270px;
     background-image: url("../Images/Fondo.jpeg");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
+    max-width: 100%;
+    align-items: left;
   }
 
 #fondo:before{
@@ -123,10 +125,16 @@ body{
 }
 #fondo img{
     position: relative;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     animation: move_avatar 3s ease-in-out infinite;
-} 
+    
+}
+/* @media screen and (max-width: 1400){
+    #fondo img{
+        margin-left: 10px;
+    }
+} */
 
 @keyframes move_avatar{
     0%{
