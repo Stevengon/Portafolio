@@ -28,7 +28,7 @@ body{
     transform:scale(1.1) ;
 }
 #menu{
-    padding: 20px;
+    padding: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
@@ -100,7 +100,7 @@ body{
 #fondo h1{
     position: relative;
     font-family: 'Oswald', sans-serif;
-    font-size: 120px;
+    font-size: 400%;
     font-weight: 300;
     color: whitesmoke;
     
@@ -108,7 +108,7 @@ body{
 #fondo h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 150%;
     color: whitesmoke;
     text-align: center;
     position: relative;
@@ -117,15 +117,19 @@ body{
 #fondo h4{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 400%;
     color: whitesmoke;
     text-align: center;
     position: relative;
     
 }
+.saludo {
+    margin-top: -5%;
+}
 #fondo img{
+    width: 300px;
     position: relative;
-    /* margin-left: 200px; */
+    margin-top: -125px;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     animation: move_avatar 3s ease-in-out infinite;
     
@@ -240,22 +244,23 @@ body{
     perspective: 150rem;
     position: relative;
     height: 15rem;
-    max-width: 90rem;
+    max-width: 30%;
     background: none;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    margin-left: 2%;
   }
 .icono{
     
-    font-size: 200px;
+    font-size: 10rem;
     /* color: black !important; */
     
 }
   
   .card-side {
-    height: 17rem;
+    height: 100%;
     border-radius: 15px;
     transition: all 0.8s ease;
     backface-visibility: hidden;
