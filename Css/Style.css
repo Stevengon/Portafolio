@@ -204,7 +204,7 @@ body{
 .avatar2{
     width: 300px;
     transition: 0.4s;
-    margin-left: 20%;
+    margin-left: 5%;
     margin-top: 10%;
 }
 .avatar2:hover{
@@ -236,10 +236,7 @@ body{
 .fondo-hobbies h2{
     position: relative;
 }
-#hobbies i{
-    font-size: 100px;
-    margin-bottom: 20px;
-}
+
 .cards {
     perspective: 150rem;
     position: relative;
@@ -251,6 +248,7 @@ body{
     justify-content: center;
     margin-top: 10px;
     margin-left: 2%;
+    
   }
 .icono{
     
@@ -273,7 +271,9 @@ body{
     margin-left: 40px;
     
   }
-  
+  .back p{
+    font-size: 95% !important;
+  }
   .card-side.back {
     transform: rotateY(-180deg);
     background-color: #17202A;
@@ -292,6 +292,7 @@ body{
   
   .cards:hover .card-side.back {
     transform: rotateY(0deg);
+     
   }
 
 /* HABILIDADES */
